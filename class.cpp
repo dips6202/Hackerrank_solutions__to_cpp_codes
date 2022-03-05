@@ -50,10 +50,7 @@ class Student{
     
     int get_standard() {
       return s;  
-    }
-    
-
-    
+    }   
     
 };
 
@@ -64,7 +61,8 @@ int main() {
     cin >> age >> first_name >> last_name >> standard;
     
     Student st;
-    st.set_age(age);
+
+    st.set_age(age);    
     st.set_standard(standard);
     st.set_first_name(first_name);
     st.set_last_name(last_name);
