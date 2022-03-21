@@ -30,10 +30,6 @@ int main()
     RectangleArea r_area;    
     r_area.read_input();
     r_area.Rectangle::display();
-    
-    /*
-     * Print the area
-     */
     r_area.display();
     
     return 0;
