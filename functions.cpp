@@ -13,7 +13,6 @@ int max_of_four(int a, int b, int c, int d){
     else  max=d;
     return max;
 }
-
 int main() {
     int a, b, c, d;
     scanf("%d %d %d %d", &a, &b, &c, &d);
