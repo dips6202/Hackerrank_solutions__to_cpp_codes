@@ -9,7 +9,7 @@ int main()
    cout<<"one";
    else if (n==2) {
    cout<<"two";
-   } 
+   }
    else if(n==3) {
        cout<<"three";
    }
