@@ -19,8 +19,7 @@ int main() {
      c2=a[0];
      a[0]=c1;
      b[0]=c2;
-     cout<<a<<" "<<b;
-    
+     cout<<a<<" "<<b;   
   
     return 0;
 }
