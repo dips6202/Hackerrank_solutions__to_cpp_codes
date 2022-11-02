@@ -10,15 +10,13 @@ class Complex{
      real=r;
      imag=i;
  }
-
  Complex operator +(const Complex &obj)
  {
      Complex res;
      res.real=real+obj.real;
-     res.imag=imag+obj.imag;
+     res.imag=img+obj.imag;
      return res;
  }
-
 void print()
 {
     cout<<real<<"+i"<<imag<<endl;
